@@ -1,0 +1,17 @@
+{
+	"hiwonder_asr.ASRSETMODE|block":"语音识别模块设置为%mode模式",
+	"hiwonder_asr.ASRREAD|block":"语音识别模块获取识别词条编号",
+	"hiwonder_asr.ASRAddWords|block":"语音识别模块添加词条编号|%idnum 拼音|%words",
+	"hiwonder_asr.ASRWORDSERASE|block":"擦除全部词条",
+	"hiwonder_asr.MP3_BUTTON|block":"MP3模块 |%button 歌曲",
+	"hiwonder_asr.MP3_VOL|block":"MP3模块音量 |%value",
+	"hiwonder_asr.MP3_SINGLE_LOOP|block":"MP3模块单曲循环 |%state",
+	"hiwonder_asr.MP3_PLAY_NUM|block":"MP3模块播放序号|%num 歌曲",
+	"hiwonder_asr.ASRMode.mode1|block":"循环识别",
+	"hiwonder_asr.ASRMode.mode2|block":"命令识别",
+	"hiwonder_asr.ASRMode.mode3|block":"按键识别",
+	"hiwonder_asr.mp3button.PLAY|block":"播放",
+	"hiwonder_asr.mp3button.PAUSE|block":"暂停",
+	"hiwonder_asr.mp3button.PREV|block":"上一首",
+	"hiwonder_asr.mp3button.NEXT|block":"下一首"
+}

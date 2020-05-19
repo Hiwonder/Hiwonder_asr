@@ -1,0 +1,18 @@
+{
+    "name": "hiwonder_asr",
+    "version": "0.0.1",
+    "description": "Blocks for Hiwonder asr & mp3 module",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/hiwonder_asr-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
