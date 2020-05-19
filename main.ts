@@ -12,11 +12,11 @@ namespace hiwonder_asr {
     const ASR_ADD_WORDS_ADDR = 160;
 
     export enum ASRMode {
-        //% block="Loop recognition"
+        //% block="Continuous recognition"
         mode1 = 0x01,
-        //% block="word"
+        //% block="Voice"
         mode2 = 0x02,
-        //% block="key"
+        //% block="Key"
         mode3 = 0x03
     }
 	
@@ -86,7 +86,7 @@ namespace hiwonder_asr {
         basic.pause(50);
     }
 
-    //% weight=90 blockId=ASRWORDSERASE block="Erase Data"
+    //% weight=90 blockId=ASRWORDSERASE blockGap=50 block="Erase Data"
     export function ASRWORDSERASE() {
         WireWriteDataArray(ASR_I2C_ADDR, ASR_WORDS_ERASE_ADDR, null);
 	    basic.pause(60);
@@ -136,7 +136,7 @@ namespace hiwonder_asr {
     }
 
 
-    //% weight=84 blockId=MP3_SINGLE_LOOP blockGap=50 block="MP3 SINGLE LOOP |%state"
+    //% weight=84 blockId=MP3_SINGLE_LOOP block="MP3 SINGLE LOOP |%state"
     export function MP3_SINGLE_LOOP(state: mp3Loop) {
         WireWriteDataArray(MP3_I2C_ADDR, state, null);
         basic.pause(20);
