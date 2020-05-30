@@ -59,7 +59,7 @@ namespace hiwonder_asr {
         return buf[0];
     }
 
-    //% weight=96 blockId=ASRSETMODE block="Set to |%mode mode"
+    //% weight=96 blockId=ASRSETMODE block="Set to |%mode mode (P19:SCL,P20:SDA)"
     export function ASRSETMODE(mode: ASRMode) {
         WireWriteDataArray(ASR_I2C_ADDR, ASR_MODE_ADDR, mode);
     }
