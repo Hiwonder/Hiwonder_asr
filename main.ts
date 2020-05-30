@@ -120,7 +120,7 @@ namespace hiwonder_asr {
         OFF = MP3_SINGLE_LOOP_OFF_ADDR
     }
 
-    //% weight=88 blockId=MP3_BUTTON block="MP3 |%button music"
+    //% weight=88 blockId=MP3_BUTTON block="MP3 |%button music (P19:SCL,P20:SDA)"
     export function MP3_BUTTON(button: mp3button) {
         WireWriteDataArray(MP3_I2C_ADDR, button, null);
         basic.pause(20);
