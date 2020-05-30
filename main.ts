@@ -1,7 +1,7 @@
 /*
  lobotsr package
 */
-//% weight=10 icon="\uf013" color=#2896ff
+//% weight=10 icon="\uf3c9" color=#2896ff
 namespace hiwonder_asr {
 	
     const ASR_I2C_ADDR = 0x79;
