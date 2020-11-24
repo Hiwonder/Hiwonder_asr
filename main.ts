@@ -130,6 +130,7 @@ namespace hiwonder_asr {
      * @param value is a number, eg: 20
      */
     //% weight=86 blockId=MP3_VOL block="MP3 VOL |%value"
+    //% value.min=0 value.max=30
     export function MP3_VOL(value: number) {
         WireWriteDataArray(MP3_I2C_ADDR, MP3_VOL_VALUE_ADDR, value);
         basic.pause(20);
